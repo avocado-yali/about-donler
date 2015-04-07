@@ -28,9 +28,9 @@ html , body {
 }
 
 .swiper-button-next {
-  top: 95%;
+  top: 96%;
   left: 50%;
-  margin-left: 13px;
+  margin-left: -15px;
   background-image: url('angle-double-up2.svg');
 
 }
