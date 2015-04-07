@@ -1,0 +1,9 @@
+{
+  "name" : "about-donler",
+  "version" : "0.0.1",
+  "main" : "about.js",
+  "dependencies" : {
+    "swiper": "*",
+    "jquery": "*"
+  }
+}
