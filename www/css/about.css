@@ -36,10 +36,12 @@ html , body {
 }
 
 .svgitem01 {
-	width: 200px;
-	height: 200px;
-	background-image: url('test.svg#position_1');
+	width: 120px;
+	height: 120px;
+	background-image: url('one.svg');
 	background-repeat: no-repeat;
+	background-size: 400px 300px;
+	fill: #369;
 }
 
 .svgitem02 {
@@ -47,4 +49,24 @@ html , body {
 	height: 200px;
 	background-image: url('test.svg#position_2');
 	background-repeat: no-repeat;
+}
+
+.svgitem03 {
+	width: 120px;
+	height: 120px;
+	background-image: url('svg.svg#qianbi');
+	background-repeat: no-repeat;
+	fill: #369;
+}
+
+.webicon {
+	fill: #369;
+}
+.webicon2 {
+	fill: #fff;
+}
+.webicon3 {
+	fill: #333;
+	width: 20px;
+	height: 20px;
 }
