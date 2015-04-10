@@ -34,3 +34,17 @@ html , body {
   background-image: url('angle-double-up2.svg');
 
 }
+
+.svgitem01 {
+	width: 200px;
+	height: 200px;
+	background-image: url('test.svg#position_1');
+	background-repeat: no-repeat;
+}
+
+.svgitem02 {
+	width: 200px;
+	height: 200px;
+	background-image: url('test.svg#position_2');
+	background-repeat: no-repeat;
+}

@@ -1,4 +1,16 @@
-$(document).ready(function () {
+// $(document).ready(function () {
+//     //initialize swiper when document ready  
+//     var mySwiper = new Swiper ('.swiper-container', {
+//       // Optional parameters
+//       direction: 'vertical',
+//       loop: false,
+//       nextButton: '.swiper-button-next'
+
+//     })        
+//   });
+
+
+	window.onload = function () {
     //initialize swiper when document ready  
     var mySwiper = new Swiper ('.swiper-container', {
       // Optional parameters
@@ -6,5 +18,5 @@ $(document).ready(function () {
       loop: false,
       nextButton: '.swiper-button-next'
 
-    })        
-  });
+    })       
+  };
