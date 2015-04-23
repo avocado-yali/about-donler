@@ -9,22 +9,51 @@ html , body {
 .swiper-container , .swiper-slide {
     width: 100%;
     height: 100%;
+
 }  
 
+.swiper-slide {
+	padding: 0 1rem;
+	line-height: 24px;
+}
 .slide1 {
-	background-color: #dcc
+	background: rgb(114, 194, 203);
+	background: -moz-linear-gradient(244deg, rgb(114, 194, 203) 0%, rgb(157, 140, 250) 64%);
+	background: -webkit-linear-gradient(244deg, rgb(114, 194, 203) 0%, rgb(157, 140, 250) 64%);
+	background: -o-linear-gradient(244deg, rgb(114, 194, 203) 0%, rgb(157, 140, 250) 64%);
+	background: -ms-linear-gradient(244deg, rgb(114, 194, 203) 0%, rgb(157, 140, 250) 64%);
+	background: linear-gradient(334deg, rgb(114, 194, 203) 0%, rgb(157, 140, 250) 64%);
+	color: #fff;
 }
 
 .slide2 {
-	background-color: #4e5
+
+background: rgb(31, 213, 219);
+background: -moz-linear-gradient(282deg, rgb(31, 213, 219) 17%, rgb(229, 215, 255) 80%);
+background: -webkit-linear-gradient(282deg, rgb(31, 213, 219) 17%, rgb(229, 215, 255) 80%);
+background: -o-linear-gradient(282deg, rgb(31, 213, 219) 17%, rgb(229, 215, 255) 80%);
+background: -ms-linear-gradient(282deg, rgb(31, 213, 219) 17%, rgb(229, 215, 255) 80%);
+background: linear-gradient(12deg, rgb(31, 213, 219) 17%, rgb(229, 215, 255) 80%);
+
 }
 
 .slide3 {
-	background-color: #44b
+background: rgb(107, 213, 219);
+background: -moz-linear-gradient(291deg, rgb(107, 213, 219) 17%, rgb(128, 196, 153) 80%);
+background: -webkit-linear-gradient(291deg, rgb(107, 213, 219) 17%, rgb(128, 196, 153) 80%);
+background: -o-linear-gradient(291deg, rgb(107, 213, 219) 17%, rgb(128, 196, 153) 80%);
+background: -ms-linear-gradient(291deg, rgb(107, 213, 219) 17%, rgb(128, 196, 153) 80%);
+background: linear-gradient(21deg, rgb(107, 213, 219) 17%, rgb(128, 196, 153) 80%);
+
 }
 
 .slide4 {
-	background-color: #d23
+background: rgb(255, 164, 219);
+background: -moz-linear-gradient(291deg, rgb(255, 164, 219) 17%, rgb(235, 196, 153) 80%);
+background: -webkit-linear-gradient(291deg, rgb(255, 164, 219) 17%, rgb(235, 196, 153) 80%);
+background: -o-linear-gradient(291deg, rgb(255, 164, 219) 17%, rgb(235, 196, 153) 80%);
+background: -ms-linear-gradient(291deg, rgb(255, 164, 219) 17%, rgb(235, 196, 153) 80%);
+background: linear-gradient(21deg, rgb(255, 164, 219) 17%, rgb(235, 196, 153) 80%);
 }
 
 .swiper-button-next {
@@ -41,7 +70,8 @@ html , body {
 	background-image: url('one.svg');
 	background-repeat: no-repeat;
 	background-size: 400px 300px;
-	fill: #369;
+	fill: rgb(255, 164, 219);
+	stroke: rgb(255, 164, 219);
 }
 
 .svgitem02 {
@@ -69,4 +99,13 @@ html , body {
 	fill: #333;
 	width: 20px;
 	height: 20px;
+}
+
+.slide1 .title {
+
+}
+.slide1 p {
+	display: inline-block;
+	padding: 0 1rem;
+	width: 86%;
 }
