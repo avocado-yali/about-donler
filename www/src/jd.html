@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<title>揭秘男神家里“你不知道的事”</title>
+	<link type="text/css" rel="stylesheet" href="http://wximg.gtimg.com/tmt/_events/20150427-promo-jd/dist/css/m2.css" media="all">
+</head>
+<body>
+
+
+
+<div id="horizontal" class="full absmidBox">
+	<div>
+		<div class="phone"></div>
+		<p>为了更好的体验，请使用竖屏浏览</p>
+	</div>
+</div>
+
+<div class="stage" id="stageContainer">
+
+</div>
+
+
+<a href="#nogo" class="music music-close"></a>
+<audio id="audio" autoplay="autoplay" loop="loop" src="http://wximg.gtimg.com/tmt/_events/20150427-promo-jd/dist/music.mp3"></audio>
+
+</body>
+<script type="text/javascript" src="http://wximg.gtimg.com/tmt/_events/20150427-promo-jd/dist/js/zepto_v116.js"></script>
+<script type="text/javascript" src="http://wximg.gtimg.com/tmt/_events/20150427-promo-jd/dist/js/hammer.js"></script>
+<script type="text/javascript" src="jd.js"></script>
+<script>
+var href = window.location.href;
+var path = 'http://wximg.gtimg.com/tmt/_events/20150427-promo-jd/dist';
+var wxshareImg = path + '/img/share.jpg';
+var wxshareUrl = window.location.href.replace(/([&|\?]{1})ticket=[\w\-]+(&?)/, '$1').replace(/\?$/, '');
+var shareTitle = '揭秘男神家里“你不知道的事”';
+var shareText = '在外的男神，原来在家也是贤夫、奶爸……';
+
+function getWxShareData() {
+    return {
+        'img_url': wxshareImg,
+        'title': shareTitle,
+        'desc': shareText,
+        'link': wxshareUrl
+    };
+}
+
+function getWxShareMomentData() {
+    return {
+        'img_url': wxshareImg,
+        'title': shareTitle,
+        'desc': shareText,
+        'link': wxshareUrl
+    };
+}
+
+var bindit = function () {
+    // 发送给好友;
+    WeixinJSBridge.on('menu:share:appmessage', function () {
+        WeixinJSBridge.invoke('sendAppMessage', getWxShareData(), function (r) {
+        });
+    });
+    // 分享到朋友圈;
+    WeixinJSBridge.on('menu:share:timeline', function () {
+        WeixinJSBridge.invoke('shareTimeline', getWxShareMomentData(), function (r) {
+        });
+    });
+};
+
+document.addEventListener('WeixinJSBridgeReady', bindit, false);
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=42765964" charset="UTF-8"></script>
+<script src="http://res.wx.qq.com/promotion/res/htmledition/js/stat.js?max_age=31536000"></script>
+<script>
+    var appid = "wx737a0e3ea439f5d5"; //公众号APPID
+    WXStat(appid);
+</script>
+</html>

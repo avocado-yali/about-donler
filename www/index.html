@@ -1,83 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="initial-scale=1,width=device-width, maximum-scale=1.0, user-scalable=no">
-	<meta name="description" content='About donler'/>
-	<link rel="shortcut icon" href="http://www.donler.com/favicon.ico" >
-	<title>About Donler</title>
-
-	<link rel="stylesheet" href="css/swiper.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/about.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,width=device-width, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content='About donler' />
+    <link rel="shortcut icon" href="http://www.donler.com/favicon.ico">
+    <title>About Donler</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/about.css">
 </head>
+
 <body>
-	<div class="loading"><div class="spinner">
-    Loading...
-</div></div>
-
-	<!-- Slider main container -->
-	<div class="swiper-container">
-	    <!-- Additional required wrapper -->
-	    <div class="swiper-wrapper">
-	        <!-- Slides -->
-	        <div class="swiper-slide slide1">
-	        	<h2 class="ani title" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">关于我们</h2>
-	        	<p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">Patterns 是 SVG fill 裏頭的一個有趣元素，記得在 CSS 裏頭，我們可以自訂背景的圖案，達到許多很有特色的變化，然而在 SVG 也是如此，而 SVG 比 CSS 更加強大的地方，是你所有的圖案 ...</p>
-	        	<p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.4s">feImage 是 SVG filter 裏頭最簡單的濾鏡，它可以幫助我們更實際的了解 filter 的原理，feImage 人如其名的就是把圖片當濾鏡，設定圖片的長寬，搭配 feTitle 就可以把圖片重複運 ...</p>
-	        	
-	        </div>
-	        
-	        <div class="swiper-slide slide2">
-	        	Slide 2
-	        	
-                <div class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
-                    <div class="svgitem01"></div>
+    <div class="loading">
+        <div class="spinner">
+            Loading...
+        </div>
+    </div>
+    <a href="#nogo" class="music music-close"></a>
+    <audio id="audio" autoplay="autoplay" loop="loop" src="http://wximg.gtimg.com/tmt/_events/20150427-promo-jd/dist/music.mp3"></audio>
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slide1">
+                <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">从同事是路人</p>
+                <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.4s">到一起流汗的好基友</p>
+                <p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="2s">也许只差了一个梨</p>
+            </div>
+            <div class="swiper-slide slide2">
+                <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">动梨 全宇宙第一款搞定同事的APP</p>
+                <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.4s">动梨 企业的员工活动管理工具</p>
+            </div>
+            <div class="swiper-slide slide3">
+                <div class="filter-block">
+                    <div class="filter ani" swiper-animate-effect="rotateOut" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s"><img src="img/Key.png" /></div>
+                    <div class="filter ani" swiper-animate-effect="bounceOut" swiper-animate-duration="0.8s" swiper-animate-delay="1s"><img src="img/Headphones.png" /></div>
+                    <div class="filter ani" swiper-animate-effect="rotateOut" swiper-animate-duration="0.8s" swiper-animate-delay="1.5s"><img src="img/Mobile.png" /></div>
+                    <div class="filter ani" swiper-animate-effect="bounceOut" swiper-animate-duration="0.8s" swiper-animate-delay="2s"><img src="img/Notebook.png" /></div>
                 </div>
-                <div class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="1.0s">
-                    <div class="svgitem01"></div>
-                </div>
-                <div class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s">
-                    <div class="svgitem01"></div>
-                </div>
-                <p class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s">内容</p>
-	        </div>
-	        <div class="swiper-slide slide3">
-				<div class="filter-block">
-				    <div class="filter ani" swiper-animate-effect="rotateOut" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s"><img src="img/Key.png" /></div>
-				    <div class="filter ani" swiper-animate-effect="bounceOut" swiper-animate-duration="0.8s" swiper-animate-delay="1s"><img src="img/Headphones.png" /></div>
-				    <div class="filter ani" swiper-animate-effect="rotateOut" swiper-animate-duration="0.8s" swiper-animate-delay="1.5s"><img src="img/Mobile.png" /></div>
-				    <div class="filter ani" swiper-animate-effect="bounceOut" swiper-animate-duration="0.8s" swiper-animate-delay="2s"><img src="img/Notebook.png" /></div>
-				  </div>  
-
-
- 
-	        </div>
-	        <div class="swiper-slide slide4">
-	        	Slide 4
-	        	<img src="css/test.svg#position_1" alt="" />
-	        	<img src="css/test.svg#position_2" alt="" />
-                <svg class="webicon wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
-                <svg class="webicon2 wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
-                <svg class="webicon3 wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
+            </div>
+            <div class="swiper-slide slide4">
+                Slide 4
+                <img src="css/test.svg#position_1" alt="" />
+                <img src="css/test.svg#position_2" alt="" />
+                <svg class="webicon wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
+                <svg class="webicon2 wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
+                <svg class="webicon3 wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
                 <div class="svgitem02"></div>
                 <div class="svgitem01 wow bounceInUp"></div>
-	        	<svg class="webicon wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
-	        	<svg class="webicon2 wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
-	        	<svg class="webicon3 wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
-	        	<!-- <img src="css/test.svg#position_1" alt="" />-->
+                <svg class="webicon wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
+                <svg class="webicon2 wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
+                <svg class="webicon3 wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
+                <!-- <img src="css/test.svg#position_1" alt="" />-->
                 <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">内容</p>
-                <svg class="webicon wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
-                <svg class="webicon2 wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
-                <svg class="webicon3 wow bounceInUp"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use></svg>
-	        </div>
-	    </div>
+                <svg class="webicon wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
+                <svg class="webicon2 wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
+                <svg class="webicon3 wow bounceInUp">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#huodong2"></use>
+                </svg>
+            </div>
+        </div>
         <!-- Add Arrows -->
         <div class="swiper-button-next"></div>
-	</div>
+    </div>
     <script src="lib/jquery.min.js"></script>
-  <script src="lib/swiper.min.js"></script>
-  <script src="lib/swiper.animate.min.js"></script>
-  <script src="js/about.js"></script>
+    <script src="lib/swiper.min.js"></script>
+    <script src="lib/swiper.animate.min.js"></script>
+    <script src="js/about.js"></script>
 </body>
-</html> 
+
+</html>
